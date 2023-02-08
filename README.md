@@ -20,6 +20,11 @@
  2 - git commit -m  "DESCREVER O QUE FOI FEITO"
  3 - git push.
  4 - verificar no github se ficou salvo.
+
+ ## Para o merge 
+ 1 - git checkout NOME Da BRANCH
+ 2 - git pull (obter atualizacoes)
+ 3 - git merge NOME BRANCH PARA FAZER AS ALTERAÇÕES 
  teste 1 
  teste 2
  teste 3
