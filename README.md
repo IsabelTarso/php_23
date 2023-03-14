@@ -14,23 +14,15 @@
 7.2 - sudo service apahce2 status (apache is running)
 7.3 - sudo service apahce2 start.
 7.4 - executar os passos 7.1 e 7.2.
- oi 
- oi
- oi
- oi
- oi
+ 
  ### Para salvar no GitHub 
  1 - git add . ( . = todos os arquivos ou especificar por nome ex. git add index.php).
  2 - git commit -m  "DESCREVER O QUE FOI FEITO"
  3 - git push.
  4 - verificar no github se ficou salvo.
-oadkodfk
+
  ## Para o merge 
  1 - git checkout NOME Da BRANCH
  2 - git pull (obter atualizacoes)
  3 - git merge NOME BRANCH PARA FAZER AS ALTERAÇÕES 
- teste 1 
- teste 2
- teste 3
- teste 4
-dhgoldhgsjppgjj
+ 
