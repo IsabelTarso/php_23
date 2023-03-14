@@ -50,6 +50,11 @@ etnia = null
 inscricao_estadual = null
 
 
+
+___Tabela___
+
+
+
 TABELA enderecos
 id_estado (fk) = null
 id_cidade (fk) = null
