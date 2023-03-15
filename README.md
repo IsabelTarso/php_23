@@ -15,16 +15,24 @@
 7.3 - sudo service apahce2 start.
 7.4 - executar os passos 7.1 e 7.2.
  
+ 
+ 
+ 
  ### Para salvar no GitHub 
  1 - git add . ( . = todos os arquivos ou especificar por nome ex. git add index.php).
  2 - git commit -m  "DESCREVER O QUE FOI FEITO"
  3 - git push.
  4 - verificar no github se ficou salvo.
 
+
+
  ## Para o merge 
  1 - git checkout NOME Da BRANCH
  2 - git pull (obter atualizacoes)
  3 - git merge NOME BRANCH PARA FAZER AS ALTERAÇÕES 
+ 
+ 
+ 
  
 TABELA rh
 id PK AUTOINCREMENT NOT NULL
@@ -32,6 +40,9 @@ id PK AUTOINCREMENT NOT NULL
     salario
 log_first datetime DEFAULT CURRENTTIMESTAMP,
 log_last datetime DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENTTIMESTAMP,
+
+
+
 
 
 TABELA pesssoas|people 
@@ -66,9 +77,13 @@ cep
 referencia
 
 
+
 TABELA estados
 nome
 sigla
+
+
+
 
 
 TABELA cidade 
