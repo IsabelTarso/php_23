@@ -72,6 +72,11 @@ id_cidade (fk) = null
 rua
 bairro
 numero
+
+
+dbeaver
+
+
 complemento
 cep
 referencia
