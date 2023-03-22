@@ -74,8 +74,6 @@ bairro
 numero
 
 
-dbeaver
-
 
 complemento
 cep
@@ -97,3 +95,33 @@ populacao
 densidade_demografica
 renda_per_capita
 ultimo_senso
+
+
+ _Anotações_
+ dbeaver
+ dbeaver
+ dbeaver
+ sudo service apache2 status// para ver se o localhost esta rodando
+ 
+ 
+ .= ligar uma informação//contatenar!!
+ 
+ 
+ 
+ <?php = misturar php com hmtl
+ 
+ 
+                             --!para proteção de dados add index.html!--
+                                   
+                             
+                             
+                          --->> a maquina sempre procurara o arquivo index <<---
+                       
+                       
+                       
+403 - forbide> codigo html
+</b> , negrito
+
+
+
+
