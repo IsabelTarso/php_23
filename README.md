@@ -123,5 +123,19 @@ ultimo_senso
 </b> , negrito
 
 
+<? __ Abrir php// >? fechar a tag php
+
+const// constante == não muda = ``;
+
+variavel// $= ``;
+
+echo = texto 
+//= comentario 
+--sql
+0 = um termo 
+0,0 = termo decimal 
+== compracao
+% pega o resto da divisão 
+
 
 
