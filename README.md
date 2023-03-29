@@ -111,7 +111,7 @@ ultimo_senso
  <?php = misturar php com hmtl
  
  
-                             --!para proteção de dados add index.html!--
+<br>                             --!para proteção de dados add index.html!--
                                    
                              
                              
