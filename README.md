@@ -137,5 +137,8 @@ echo = texto
 == compracao
 % pega o resto da divisão 
 
+Laço de repetição
+do, while , do ... while == laços de repetição
+++ somar a variavel mais um
 
 
