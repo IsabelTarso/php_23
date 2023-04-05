@@ -32,6 +32,27 @@
  3 - git merge NOME BRANCH PARA FAZER AS ALTERAÇÕES 
  
  
+ <?php 
+$possibilidades = array("papel"=>[
+    "tesoura" => "perde",
+    "pedra" => "ganha",
+    "papel" => "empate",
+],
+    
+    , "pedra"=>[
+        "tesoura"=> "ganha",
+        "pedra" => "empate",
+        "papel" => "perde",
+
+    ],
+    
+    , "tesoura"=> [
+    
+    "tesoura"=> "empate",
+    "pedra" => "perde",
+    "papel" => "ganha",
+
+],);
  
  
 TABELA rh
