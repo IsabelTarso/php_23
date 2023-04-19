@@ -209,5 +209,29 @@ $possibilidades = array("papel"=>[
 
 ],);
 
+<?php
+  for($i =1; $i < 20; $i++){
+  echo "O Valor de I = ".$id;
+}
+?>
+<?php 
+$horarioinicial:
+
+$horainicial + "2700" = $Finaldoprimeirotempo 
+$Finaldoprimeirotempo + "2700" = $fimdojogo
+$fimdojogo/60= $horariofinal
+
+
+
+
+$horainicial
+$arrTempoInicial = explode(":", $horainicial);
+
+$horaIni = $arrTempoInicial[0];
+$minIni = $arrTempoInicial[1];
+$minIni = $arrTempoInicial[2];
+
+$horaEmSegundos = ($horaIni * );
+$minutosEmSegundos = ($minIni)
 
 
