@@ -216,22 +216,56 @@ $possibilidades = array("papel"=>[
 ?>
 <?php 
 $horarioinicial:
-
-$horainicial + "2700" = $Finaldoprimeirotempo 
-$Finaldoprimeirotempo + "2700" = $fimdojogo
-$fimdojogo/60= $horariofinal
-
-
-
-
-$horainicial
-$arrTempoInicial = explode(":", $horainicial);
-
-$horaIni = $arrTempoInicial[0];
-$minIni = $arrTempoInicial[1];
-$minIni = $arrTempoInicial[2];
-
-$horaEmSegundos = ($horaIni * );
-$minutosEmSegundos = ($minIni)
-
-
+<br>
+$horainicial + "2700" = $Finaldoprimeirotempo <br>
+$Finaldoprimeirotempo + "2700" = $fimdojogo<br>
+$fimdojogo/60= $horariofinal<br>
+<br>
+<br>
+<br>
+<br>
+$horainicial<br>
+$arrTempoInicial = explode(":", $horainicial);<br>
+<br>
+$horaIni = $arrTempoInicial[0];<br>
+$minIni = $arrTempoInicial[1];<br>
+$minIni = $arrTempoInicial[2];<br>
+<br>
+$horaEmSegundos = ($horaIni * );<br>
+$minutosEmSegundos = ($minIni)<br>
+<br>
+<br>
+<?php
+<br>
+$inicio = '23:30:00';
+$fim = '01:10:27';
+<br>
+/*$diferenca = Datetime(fim) - Datetime(inicio); --> faz a mesma coisa que o codigo abaixo*/
+<br>
+$arr_ini = explode(":", $inicio);
+$arr_fim = explode(":", $fim);
+<br>
+//23:59:59 --> 86399<br>
+//24:00:00 --> 86400<br>
+//00:00:00 --> 0<br>
+<br>
+$inicio = ($arr_ini[0]*3600) + ($arr_ini[1]*60) + $arr_ini[2];
+<br>
+$fim = ($arr_fim[0]*3600) + ($arr_fim[1]*60) + $arr_fim[2];
+<br>
+if($inicio > $fim){
+    $fim += 86400;<br>
+}
+<br>
+$tempo = $fim - $inicio;<br>
+<br>
+$hora = $tempo/3600;
+$tempo = $tempo%3600;<br>
+<br>
+$min = $tempo/60;<br>
+$tempo = $tempo%60;<br>
+<br>
+$seg = $tempo;<br>
+<br>
+echo "Tempo decorrido: " . intval($hora) . " hora, " . intval($min) . " minutos e {$seg} segundos";<br>
+?>
