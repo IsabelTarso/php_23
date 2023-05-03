@@ -269,3 +269,5 @@ $seg = $tempo;<br>
 <br>
 echo "Tempo decorrido: " . intval($hora) . " hora, " . intval($min) . " minutos e {$seg} segundos";<br>
 ?>
+
+CRUD 
